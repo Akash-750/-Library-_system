@@ -1,0 +1,137 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+}
+.nav ul li{
+   list-style: none;
+  
+  
+}
+.nav  a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+   color:red;
+
+}
+.nav ul{
+ display:flex;
+ 
+ gap:2rem;
+}
+.nav{
+    
+    background: #0e0e0e;
+    display: flex;
+    padding: 1rem;
+   justify-content: space-between;
+    align-items: center;
+}
+
+  /*-----start table css------*/
+
+  table{
+    border-collapse: collapse;
+    width: 60%;
+    
+    margin-left: 25%;
+   
+    
+   
+  }
+  th, td {
+   border: 2px solid rgba(0, 0, 0, 0.253);
+
+   padding:6px;
+   text-align: left;
+ }
+ h1{
+   margin-top: 5%;
+   margin-left: 25%;
+
+ }
+
+  
+ 
+/*------start form css--------*/
+
+
+form{
+   width: 60%;
+   height: 60vh;
+   display: flex;
+   flex-direction: column;
+   margin-left:25% ;
+   margin-top: 20%;
+   margin-bottom: 10%;
+   border: 1px solid black;
+}
+label{
+   
+   margin-left:20px;
+   margin-right: 20px;
+   background-color: white;
+   color: black;
+   font-weight: bold;
+   margin-top: 10px;
+  
+   
+
+   
+}
+input{
+   width: 96%;
+   height: 5%;
+   margin-left:20px;
+   margin-right: 20px;
+   border: 1px solid black;
+   
+   
+
+}
+input:hover{
+   background-color:whitesmoke;
+}
+h2{
+   padding: 10px;
+}
+button{
+   width: 96%;
+   height: 5%;
+   margin-top: 10px;
+   margin-left: 20px;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+
+}
+
+
+
+
+
+
+
+ nav{
+    position: sticky;
+    top :0;
+ }
+
+
+
+
+
+
+
+ @media screen and (min-width: 480px) {
+
+
+
+
+ }
